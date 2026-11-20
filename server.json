@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/ats-new-postings-monitor-mcp",
+  "title": "ATS New Job Postings Monitor \u2014 Greenhouse, Lever & Ashby",
+  "description": "Watch Greenhouse, Lever and Ashby boards for only new job postings, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/ats-new-postings-monitor-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/ats-new-postings-monitor"
+    }
+  ]
+}

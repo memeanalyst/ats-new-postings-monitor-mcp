@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "ats-new-postings-monitor": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/ats-new-postings-monitor"
+    }
+  }
+}
